@@ -13,4 +13,13 @@ grade3 = eval(input("Enter your grade for the third quarter grade: "))
 grade4 = eval(input("Enter your grade for the fourth quarter grade: "))
 
 average = (grade1 + grade2 + grade3 + grade4) / 4
-print("The average of your grades is " + str(average))
+
+print("Name: " + name1)
+print("ID Number: ", num)
+print("Course: " + course1)
+print("Section: " + sec1)
+print("Grade1: ", grade1)
+print("Grade2: ", grade2)
+print("Grade3: ", grade3)
+print("Grade4: ", grade4)
+print("The average is: ", average)
